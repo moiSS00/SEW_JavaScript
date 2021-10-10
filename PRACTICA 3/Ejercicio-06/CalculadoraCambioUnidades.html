@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Calculadora de cambio de unidades</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sánchez (UO270824)" />
+<meta name="desciption" content="Ejercicio6" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="CalculadoraCambioUnidades.css"/>
+<script src = "CalculadoraCambioUnidades.js"></script>
+</head>
+<body onload="calculadora.formarOpciones('Longitud')">
+
+<h1>Calculadora de cambio de unidades</h1>
+<p>A continuación se muestra una calculadora de cambio de unidades</p>
+
+<!--Este div representa a la calculadora en su conjunto-->
+<div id = "calculadora">
+
+<!--Este div representa a los botones de tipo-->
+<div id="tipo">
+<p>
+    <input type="button" value="Longitud" onclick="calculadora.formarOpciones('Longitud');" />
+    <input type="button" value="Superficie" onclick="calculadora.formarOpciones('Superficie');" />
+    <input type="button" value="Volumen" onclick="calculadora.formarOpciones('Volumen');" />
+</p>
+<div>
+
+<!--Este div representa a las pantallas de la calculadora-->
+</div>
+<p>
+    <input type="text" title="PantallaBase" name="Número base" id ="numeroBase" disabled/>
+    <input type="text" title="PantallaDestino" name="Número convertido" id ="numeroDestino" disabled/>
+</p>
+
+<!--Este div representa a los botones para seleccionar el tipo base-->
+<div id="base">
+</div>
+
+<!--Este div representa a los botones para seleccionar el tipo de destino-->
+<div id="destino">
+</div>
+</div>
+
+<!--A parit de aqui se crean los botones de los numeros y las funciones especiales-->
+<p>
+    <input type="button" value="6" onclick="calculadora.digito(6);" />
+    <input type="button" value="7" onclick="calculadora.digito(7);" />
+    <input type="button" value="8" onclick="calculadora.digito(8);" />
+    <input type="button" value="9" onclick="calculadora.digito(9);" />  
+</p>
+<p>
+    <input type="button" value="2" onclick="calculadora.digito(2);" />
+    <input type="button" value="3" onclick="calculadora.digito(3);" />
+    <input type="button" value="4" onclick="calculadora.digito(4);" />
+    <input type="button" value="5" onclick="calculadora.digito(5);" />
+</p>
+<p>
+    <input type="button" value="0" onclick="calculadora.digito(0);" />
+    <input type="button" value="1" onclick="calculadora.digito(1);" />
+    <input type="button" value="." onclick="calculadora.punto();" />
+    <input type="button" value="del" onclick="calculadora.del();" />
+    <input type="button" value="enter" onclick="calculadora.conversion();" />  
+</p>
+</div>
+
+<!--Instrucciones de uso de la calculadora-->
+<h2>Instrucciones de uso</h2>
+<p>Se realizó una calculadora de cambio de unidades que trabaja con unidades de longitud, superficie y volumen. Se quiso hacer 
+    una interfaz similar a la calculadora de cambio de unidades de Google.
+    Explicación del funcionamiento mediante una secuencia de pasos: 
+</p>
+<ul>
+    <li>
+        Paso 1: Debe pulsar alguno de los botones situados justo encima de las dos pantallas. Aquí seleccionará 
+        el tipo de unidades con la que quiere trabajar y posteriormente se actualizará la calculadora para prepararse 
+        para los calculos.
+    </li>
+    <li>
+        Paso 2: La calculadora tiene dos pantallas. La de la izquierda representa el valor base, es decir, el valor que 
+        queremos convertir a otra magnitud. Tendremos que indicar en que magnitud está el valor base, con los botones que están
+        dentro del borde rojo (una vez pulsado, se actualizará la pantalla del número base con el tipo de magnitud seleccionado). 
+        En esta pantalla podrá insertar el número deseado mediante las teclas numéricas de la calculadora. Además en caso de 
+        equivocación o para modificar el número introducido, puede usar el botón "del" (delete) que borrará el último dígito 
+        del número base.
+    </li> 
+    <li>
+        Paso 3: En la pantalla de la derecha se mostrará el valor convertido a la magnitud deseada (establecida mediante los botones 
+        dentro del borde azul). Para realizar la conversion debe dar al botón "enter" de la calculadora.  
+    </li>
+</ul>
+
+</body>
+</html>

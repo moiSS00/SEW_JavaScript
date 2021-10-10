@@ -1,0 +1,314 @@
+{
+    "rutasTren": {
+      "rutaTren": [
+        {
+          "-nombre": "Expreso de la robla",
+          "-tipo": "Paisajística",
+          "-descripcion": "El Expreso recorrerá la cornisa cantábrica  española en cuatro días para conocer Cantabria y Asturias (norte de España).",
+          "-recomendacion": "8",
+          "horario": {
+            "fechaInicio": "2020-07-04",
+            "horaInicio": "15:30:00",
+            "duracion": "P4D"
+          },
+          "inicio": {
+            "-lugarInicio": "Bilbao",
+            "-direccionInicio": "Federico Moyúa Plaza, 5, 48009 Bilbo, Bizkaia",
+            "coordenadas": {
+              "-longitud": "-2.9349851",
+              "-latitud": "43.2630144",
+              "-altitud": "19"
+            }
+          },
+          "referencias": {
+            "referencia": [
+              "https://www.renfe.com/es/es/experiencias/viajes-de-lujo/el-expreso-de-la-robla/itinerarios",
+              "https://viajemosentren.com/2013/05/29/el-paraiso-infinito-del-expreso-de-la-robla/",
+              "https://www.traveler.es/naturaleza/articulos/expreso-de-la-robla-tren-lujo-norte-de-espana-comprar-billetes-agosto-2019/15020"
+            ]
+          },
+          "detalles": {
+            "agencia": "Sin agencia",
+            "dificultad": {
+              "-valor": "Leve",
+              "-personasAdecuadas": "Para todos"
+            }
+          },
+          "hitos": {
+            "hito": [
+              {
+                "-nombre": "Torrrelavega",
+                "-descripcion": "Las visitas de este día son espectaculares pues desde Unquera, en bus, conoceremos  el valle de Liébana, y las localidades de Potes, Fuentedé y el Monasterio de Santo Toribio. Por la noche se cena y duerme en  Ribadesella.",
+                "coordenadas": {
+                  "-longitud": "-4.0501505",
+                  "-latitud": "43.3488503",
+                  "-altitud": "25"
+                },
+                "anterior": {
+                  "-distancia": "115km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/YPYD7rR" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=s0Lf--ypJ4I" }
+              },
+              {
+                "-nombre": "Rivadesella",
+                "-descripcion": "Por la mañana se hace la visita de Gijón y luego el Museo de la Sidra de Nava.  Almuerzo típicamente asturiano en un «llagar» y por la tarde/noche, marcha hacia Llanes para visitarla y cenar en ella.",
+                "coordenadas": {
+                  "-longitud": "-5.056138",
+                  "-latitud": "43.4630834",
+                  "-altitud": "897"
+                },
+                "anterior": {
+                  "-distancia": "93km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/zQ3NQVC" }
+              },
+              {
+                "-nombre": "LLanes",
+                "-descripcion": "Por la mañana se hace la visita de Gijón y luego el Museo de la Sidra de Nava.  Almuerzo típicamente asturiano en un «llagar» y por la tarde/noche, marcha hacia Llanes para visitarla y cenar en ella.",
+                "coordenadas": {
+                  "-longitud": "-4.7562159",
+                  "-latitud": "43.4211483",
+                  "-altitud": "1177"
+                },
+                "anterior": {
+                  "-distancia": "32km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/Yy0scLW" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=oRgIyQBLmYg" }
+              },
+              {
+                "-nombre": "Bilbao",
+                "-descripcion": "Regreso a punto incial de la ruta.",
+                "coordenadas": {
+                  "-longitud": "-2.9349851",
+                  "-latitud": "43.2630144",
+                  "-altitud": "19"
+                },
+                "anterior": { "-distancia": "180km" },
+                "galeriaFotos": { "foto": "https://ibb.co/PzDjhXj" }
+              }
+            ]
+          }
+        },
+        {
+          "-nombre": "La ruta extremeña",
+          "-tipo": "Paisajística",
+          "-descripcion": "Dando a conocer estas tieras del sur de España, con un recorrido que  pasaba por las provincias de Sevilla, Cádiz, Málaga, Granada y Córdoba, entre mezquitas, palacios y barrios árabes. Un tipo de viaje  que durante años se mantuvo ajeno al auge del turismo internacional.",
+          "-recomendacion": "6",
+          "horario": { "duracion": "P6D" },
+          "inicio": {
+            "-lugarInicio": "Sevilla",
+            "-direccionInicio": "Calle Joaquin Morales y Torres",
+            "coordenadas": {
+              "-longitud": "-5.9844589",
+              "-latitud": "37.3890924",
+              "-altitud": "7"
+            }
+          },
+          "referencias": {
+            "referencia": [
+              "https://viajemosentren.com/2014/05/05/tren-al-andalus-la-ruta-extremena/",
+              "https://www.turismoentren.com/blog/noticia-la-ruta-extremena-del-tren-al-andalus.php",
+              "https://www.finanzas.com/empresas-y-directivos/renfe-incluye-segunda-ruta-por-extremadura-en-el-tren-turistico-al-andalus_13595927_102.html"
+            ]
+          },
+          "detalles": {
+            "agencia": "Sin agencia",
+            "dificultad": {
+              "-valor": "Abundante",
+              "-personasAdecuadas": "Para usuarios medios"
+            }
+          },
+          "hitos": {
+            "hito": [
+              {
+                "-nombre": "Zafra",
+                "-descripcion": "Visita de la capital hispalense y de sus principales monumentos, y posterior cena a bordo  del tren. Noche en Zafra.",
+                "coordenadas": {
+                  "-longitud": "-6.4157225",
+                  "-latitud": "38.4225303",
+                  "-altitud": "508"
+                },
+                "anterior": {
+                  "-distancia": "137km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/McJd4zL" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=nSeeB-lexvI" }
+              },
+              {
+                "-nombre": "Mérida",
+                "-descripcion": "Visita de la ciudad mudéjar de Zafra antes de salir hacia Mérida.  El almuerzo es a bordo del tren, al igual que la cena y la noche en Mérida.",
+                "coordenadas": {
+                  "-longitud": "-6.365157",
+                  "-latitud": "38.9394272",
+                  "-altitud": "217"
+                },
+                "anterior": { "-distancia": "63km" },
+                "galeriaFotos": { "foto": "https://ibb.co/LNCV5SP" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=dXwzc6Acjfw" }
+              },
+              {
+                "-nombre": "Monfragüe",
+                "-descripcion": "Llegada a Cáceres y visita a esta monumental ciudad. Almuerzo y tiempo  libre en la ciudad. Cena a bordo del tren y noche en Monfragüe.",
+                "coordenadas": {
+                  "-longitud": "-5.9370734",
+                  "-latitud": "39.813014",
+                  "-altitud": "77"
+                },
+                "anterior": {
+                  "-distancia": "138km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/JpdtmJL" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=_41iq4jJ41g" }
+              },
+              {
+                "-nombre": "Toledo",
+                "-descripcion": "Visita por la mañana al Parque Nacional de Monfragüe. almuerzo en el tren y llegada a Toledo,  con visita incluida a la misma. Cena a bordo del tren y noche en Toledo.",
+                "coordenadas": {
+                  "-longitud": "-4.0273231",
+                  "-latitud": "39.8628316",
+                  "-altitud": "529"
+                },
+                "anterior": {
+                  "-distancia": "192km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/ykyyPtm" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=6j_NG37G9To" }
+              },
+              {
+                "-nombre": "Aranjuez",
+                "-descripcion": "Jornada Gastronómica por la mañana en la que se disfrutará de queso manchego, vinos y mazapanes.  Almuerzo y salida hacia Aranjuez, a la que se visita por la tarde. Cena a bordo y noche en Aranjuez.",
+                "coordenadas": {
+                  "-longitud": "-3.6040527",
+                  "-latitud": "40.0305018",
+                  "-altitud": "495"
+                },
+                "anterior": {
+                  "-distancia": "49km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/kB29vnN" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=B0TCtztKuI0" }
+              },
+              {
+                "-nombre": "Madrid",
+                "-descripcion": "Visita matinal a la capital española. Almuerzo y fin del viaje sobre las 17 h.",
+                "coordenadas": {
+                  "-longitud": "-3.7037902",
+                  "-latitud": "40.4167754",
+                  "-altitud": "667"
+                },
+                "anterior": {
+                  "-distancia": "55km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/60mFzmy" },
+                "galeriaVideos": { "video": "https://www.youtube.com/watch?v=NeAC-MfTZzU" }
+              }
+            ]
+          }
+        },
+        {
+          "-nombre": "Itinerario del Vino Ribera del Duero – Rioja",
+          "-tipo": "“Mixta tapas y monumentos",
+          "-descripcion": "Este mismo tren  turístico oferta otro itinerario que atraviesa las tierras de los viñedos de Ribera del Duero y Rioja, en un viaje enológico que,  sin duda, dejará huella a quien lo haga.",
+          "-recomendacion": "5",
+          "horario": {
+            "fechaInicio": "2020-07-06",
+            "horaInicio": "17:00:00",
+            "duracion": "P4D"
+          },
+          "inicio": {
+            "-lugarInicio": "Zaragoza",
+            "-direccionInicio": "Av. Navarra, 80, 50011 Zaragoza",
+            "coordenadas": {
+              "-longitud": "-0.8890853",
+              "-latitud": "41.6488226",
+              "-altitud": "243"
+            }
+          },
+          "referencias": {
+            "referencia": [
+              "https://viajemosentren.com/2014/05/07/tren-al-andalus-itinerario-del-vino-ribera-del-duero-rioja/",
+              "https://blogs.larioja.com/lapoda/2018/05/23/el-tren-del-vino-o-por-que-viajar-a-ribera-y-no-a-rioja-segunda-parte/?ref=https:%2F%2Fwww.google.com%2F",
+              "https://www.elnortedecastilla.es/valladolid/201410/13/renfe-recorrera-ribera-duero-20141013184842.html"
+            ]
+          },
+          "detalles": {
+            "agencia": "Sin agencia",
+            "dificultad": {
+              "-valor": "Media",
+              "-personasAdecuadas": "Para todos"
+            }
+          },
+          "hitos": {
+            "hito": [
+              {
+                "-nombre": "Logroño",
+                "-descripcion": "Salida hacia Logroño donde se cena y duerme.",
+                "coordenadas": {
+                  "-longitud": "-2.4449852",
+                  "-latitud": "42.4627195",
+                  "-altitud": "386"
+                },
+                "anterior": {
+                  "-distancia": "170km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/GFDsB40" }
+              },
+              {
+                "-nombre": "Miranda de Ebro",
+                "-descripcion": "Visita matinal a Logroño, capital de La Rioja.  Almuerzo en el tren y partida hacia Miranda de Ebro. Visita a las bodegas del Marqués de Riscal. Cena a bordo y  noche en Miranda de Ebro.",
+                "coordenadas": {
+                  "-longitud": "-2.945068",
+                  "-latitud": "42.6869753",
+                  "-altitud": "471"
+                },
+                "anterior": {
+                  "-distancia": "66km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/F62mQ6x" }
+              },
+              {
+                "-nombre": "Valladolid",
+                "-descripcion": "Tras el desayuno, durante el trayecto asistiremos a una charla en la que algunos  enólogos nos hablarán de la denominación de origen de Ribera del Duero, con participación en una cata de vinos. Tras llegar a  Valladolid, visita a una bodega de la Ribera del Duero; de ahí marcha hacia Aranda de Duero, donde se almuerza y se hace otra  visita a unas bodegas medievales. Vuelta al tren para cenar.",
+                "coordenadas": {
+                  "-longitud": "-4.7245321",
+                  "-latitud": "41.652251",
+                  "-altitud": "698"
+                },
+                "anterior": {
+                  "-distancia": "206km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/wypqpyz" }
+              },
+              {
+                "-nombre": "León",
+                "-descripcion": "Visita matinal a la ciudad de León. Fin del viaje sobre las 13 h.",
+                "coordenadas": {
+                  "-longitud": "-5.5670959",
+                  "-latitud": "42.5987263",
+                  "-altitud": "837"
+                },
+                "anterior": {
+                  "-distancia": "139km",
+                  "-tiempo": "P1D"
+                },
+                "galeriaFotos": { "foto": "https://ibb.co/MZLCdt5" }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

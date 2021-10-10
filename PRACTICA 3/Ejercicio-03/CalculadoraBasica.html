@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" dir = "ltr">
+<head>
+<title>Calculadora básica</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio3" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="CalculadoraBasica.css"/>
+<script src = "CalculadoraBasica.js"></script>
+</head>
+<body>
+<h1>Calculadora básica</h1> 
+<p>A continuación se muestra una calculadora básica</p>
+<div>
+<p>
+    <input type="text" title="Pantalla" id="pantalla" disabled/>
+</p>
+
+<p>
+    <input type="button" value="mrc" onclick="calculadora.mrc();" />
+    <input type="button" value="m-" onclick="calculadora.mMenos();" />
+    <input type="button" value="m+" onclick="calculadora.mMas();" />
+    <input type="button" value="/" onclick="calculadora.división();" />
+</p>
+
+<p>
+    <input type="button" value="7" onclick="calculadora.dígitos('7');" />
+    <input type="button" value="8" onclick="calculadora.dígitos('8');" />
+    <input type="button" value="9" onclick="calculadora.dígitos('9');" />
+    <input type="button" value="*" onclick="calculadora.multiplicación();" />
+</p>
+
+<p>
+    <input type="button" value="4" onclick="calculadora.dígitos('4');" />
+    <input type="button" value="5" onclick="calculadora.dígitos('5');" />
+    <input type="button" value="6" onclick="calculadora.dígitos('6');" />
+    <input type="button" value="-" onclick="calculadora.resta();" />
+ </p>
+
+<p>
+    <input type="button" value="1" onclick="calculadora.dígitos('1');" />
+    <input type="button" value="2" onclick="calculadora.dígitos('2');" />
+    <input type="button" value="3" onclick="calculadora.dígitos('3');" />
+    <input type="button" value="+" onclick="calculadora.suma();" />
+</p>
+
+<p>
+    <input type="button" value="0" onclick="calculadora.dígitos('0');" />
+    <input type="button" value="." onclick="calculadora.punto();" />
+    <input type="button" value="C" onclick="calculadora.borrar();" />
+    <input type="button" value="=" onclick="calculadora.igual();" />
+</p>
+</div> 
+
+</body>
+</html>

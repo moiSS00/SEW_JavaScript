@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio10</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio10" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="Ejercicio10.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "Ejercicio10.js"></script>
+</head>
+<body>
+<h1>Ejercicio 10</h1>
+<p>Se quiso implementar un buscador de imagenes similar a Google imagenes usando la API que ofrece Flickr.</p>
+<h2>Instrucciones de uso</h2>
+<p>Debe escribir en el cuadro de texto las palabras clave sobre la temática deseada separadas por ";". Posteriormente pulse el botón "Buscar" y se mostrarán las imagenes que
+concuerdan con las temáticas introducidas.Por ejemplo con la cadena "uniovi;arte", buscaría aquellas fotos que tuvieran la etiqueta uniovi o la etiqueta arte y las mostraría.
+Los resultados de cada temática, serán diferenciados del resto con ayuda de varias líneas horizontales.
+</p>
+<p>
+    <input type="text" title="Buscador" name="Buscador" id ="buscador"/>
+</p>
+<p>
+    <input type="button" value="Buscar"  onclick="ejercicio10.buscar();" /> 
+</p>
+<p>Pulse el botón "Buscar" para iniciar la búsqueda</p>
+<div id="imagenes"></div>
+</body>
+</html>

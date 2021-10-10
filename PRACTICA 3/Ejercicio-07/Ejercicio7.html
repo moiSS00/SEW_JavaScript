@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio7</title>
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio7" /> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="Ejercicio7.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "Ejercicio7.js"></script>
+</head>
+<body>
+
+<h1>Computación en el cliente</h1>
+<h2>Ejercicio 7: Jquery</h2>
+
+<p> Tarea 1: 
+    <input type="button" value="Oculatar información"  onclick="ejercicio7.ocultarInformacion();" /> 
+    <input type="button" value="Mostrar información" onclick="ejercicio7.mostrarInformacion();" /> 
+    <input type="button" value="Oculatar encabezados"  onclick="ejercicio7.ocultarEncabezados();" /> 
+    <input type="button" value="Mostrar encabezados" onclick="ejercicio7.mostrarEncabezados();" /> 
+</p>
+
+<p> Tarea 2: 
+    <input type="button" value="Modificar infomación" onclick="ejercicio7.modificarInformacion();" /> 
+    <input type="button" value="Modificar encabezados" onclick="ejercicio7.modificarEncabedados();" /> 
+</p>
+
+<p> Tarea 3: 
+    <input type="button" value="Rellenar tabla con números aleatorios" onclick="ejercicio7.crearTabla();" /> 
+</p>
+
+<p> Tara 4: 
+    <input type="button" value="Eliminar tabla" onclick="ejercicio7.eliminarDatosTabla();" /> 
+</p>
+
+<p> Tarea 5:
+    <input type="button" value="Mostrar árbol DOM del documento HTML" onclick="ejercicio7.mostrarDOM();" /> 
+</p>
+
+<p> Tarea 6:
+    <input type="button" value="Sumar todas las celdas de la tabla" onclick="ejercicio7.sumarTabla();" /> 
+</p>
+
+<div id ="info">
+<h3 id="tituloInfo">Información:</h3>
+<p id = "contenidoInfo">Este ejercicio fue resuelto usando Jquery, la bilbioteca de JavaScript más usada actualmente.</p>
+</div>
+
+<h3>Tabla de números aleatorios:</h3>
+<table id="tabla"> 
+    <thead>
+        <tr> <th>Columna 1</th>           <th>Columna 2</th>   <th>Columna 3</th> </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+    </tbody>
+</table>
+
+<p id = "suma"></p>
+</body>
+</html>

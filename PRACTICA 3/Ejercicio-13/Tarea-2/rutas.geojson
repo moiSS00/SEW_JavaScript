@@ -1,0 +1,344 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.9349851,
+                    43.2630144
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "El Expreso recorrerá la cornisa cantábrica  española en cuatro días para conocer Cantabria y Asturias (norte de España).",
+                "name": "Expreso de la robla: Parada 1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.0501505,
+                    43.3488503
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Las visitas de este día son espectaculares pues desde Unquera, en bus, conoceremos  el valle de Liébana, y las localidades de Potes, Fuentedé y el Monasterio de Santo Toribio. Por la noche se cena y duerme en  Ribadesella.",
+                "name": "Expreso de la robla: Parada 2"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.056138,
+                    43.4630834
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Por la mañana se hace la visita de Gijón y luego el Museo de la Sidra de Nava.  Almuerzo típicamente asturiano en un «llagar» y por la tarde/noche, marcha hacia Llanes para visitarla y cenar en ella.",
+                "name": "Expreso de la robla: Parada 3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.7562159,
+                    43.4211483
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Por la mañana se hace la visita de Gijón y luego el Museo de la Sidra de Nava.  Almuerzo típicamente asturiano en un «llagar» y por la tarde/noche, marcha hacia Llanes para visitarla y cenar en ella.",
+                "name": "Expreso de la robla: Parada 4"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.9349851,
+                    43.2630144
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Regreso a punto incial de la ruta.",
+                "name": "Expreso de la robla: Parada 5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.9844589,
+                    37.3890924
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Dando a conocer estas tieras del sur de España, con un recorrido que  pasaba por las provincias de Sevilla, Cádiz, Málaga, Granada y Córdoba, entre mezquitas, palacios y barrios árabes. Un tipo de viaje  que durante años se mantuvo ajeno al auge del turismo internacional.",
+                "name": "La ruta extremeña: Parada 1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.4157225,
+                    38.4225303
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita de la capital hispalense y de sus principales monumentos, y posterior cena a bordo  del tren. Noche en Zafra.",
+                "name": "La ruta extremeña: Parada 2"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.365157,
+                    38.9394272
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita de la ciudad mudéjar de Zafra antes de salir hacia Mérida.  El almuerzo es a bordo del tren, al igual que la cena y la noche en Mérida.",
+                "name": "La ruta extremeña: Parada 3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.9370734,
+                    39.813014
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Llegada a Cáceres y visita a esta monumental ciudad. Almuerzo y tiempo  libre en la ciudad. Cena a bordo del tren y noche en Monfragüe.",
+                "name": "La ruta extremeña: Parada 4"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.0273231,
+                    39.8628316
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita por la mañana al Parque Nacional de Monfragüe. almuerzo en el tren y llegada a Toledo,  con visita incluida a la misma. Cena a bordo del tren y noche en Toledo.",
+                "name": "La ruta extremeña: Parada 5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.6040527,
+                    40.0305018
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Jornada Gastronómica por la mañana en la que se disfrutará de queso manchego, vinos y mazapanes.  Almuerzo y salida hacia Aranjuez, a la que se visita por la tarde. Cena a bordo y noche en Aranjuez.",
+                "name": "La ruta extremeña: Parada 6"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.7037902,
+                    40.4167754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita matinal a la capital española. Almuerzo y fin del viaje sobre las 17 h.",
+                "name": "La ruta extremeña: Parada 7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.8890853,
+                    41.6488226
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Este mismo tren  turístico oferta otro itinerario que atraviesa las tierras de los viñedos de Ribera del Duero y Rioja, en un viaje enológico que,  sin duda, dejará huella a quien lo haga.",
+                "name": "Itinerario del Vino Ribera del Duero – Rioja: Parada 1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.4449852,
+                    42.4627195
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Salida hacia Logroño donde se cena y duerme.",
+                "name": "Itinerario del Vino Ribera del Duero – Rioja: Parada 2"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.945068,
+                    42.6869753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita matinal a Logroño, capital de La Rioja.  Almuerzo en el tren y partida hacia Miranda de Ebro. Visita a las bodegas del Marqués de Riscal. Cena a bordo y  noche en Miranda de Ebro.",
+                "name": "Itinerario del Vino Ribera del Duero – Rioja: Parada 3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.7245321,
+                    41.652251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Tras el desayuno, durante el trayecto asistiremos a una charla en la que algunos  enólogos nos hablarán de la denominación de origen de Ribera del Duero, con participación en una cata de vinos. Tras llegar a  Valladolid, visita a una bodega de la Ribera del Duero; de ahí marcha hacia Aranda de Duero, donde se almuerza y se hace otra  visita a unas bodegas medievales. Vuelta al tren para cenar.",
+                "name": "Itinerario del Vino Ribera del Duero – Rioja: Parada 4"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.5670959,
+                    42.5987263
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Visita matinal a la ciudad de León. Fin del viaje sobre las 13 h.",
+                "name": "Itinerario del Vino Ribera del Duero – Rioja: Parada 5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.9349851,
+                        43.2630144
+                    ],
+                    [
+                        -4.0501505,
+                        43.3488503
+                    ],
+                    [
+                        -5.056138,
+                        43.4630834
+                    ],
+                    [
+                        -4.7562159,
+                        43.4211483
+                    ],
+                    [
+                        -2.9349851,
+                        43.2630144
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "properties": {
+                "name": "Expreso de la robla"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -5.9844589,
+                        37.3890924
+                    ],
+                    [
+                        -6.4157225,
+                        38.4225303
+                    ],
+                    [
+                        -6.365157,
+                        38.9394272
+                    ],
+                    [
+                        -5.9370734,
+                        39.813014
+                    ],
+                    [
+                        -4.0273231,
+                        39.8628316
+                    ],
+                    [
+                        -3.6040527,
+                        40.0305018
+                    ],
+                    [
+                        -3.7037902,
+                        40.4167754
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "properties": {
+                "name": "La ruta extremeña"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -0.8890853,
+                        41.6488226
+                    ],
+                    [
+                        -2.4449852,
+                        42.4627195
+                    ],
+                    [
+                        -2.945068,
+                        42.6869753
+                    ],
+                    [
+                        -4.7245321,
+                        41.652251
+                    ],
+                    [
+                        -5.5670959,
+                        42.5987263
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "properties": {
+                "name": "Itinerario del Vino Ribera del Duero – Rioja"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

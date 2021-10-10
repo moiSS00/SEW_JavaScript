@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio12</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio12" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="Ejercicio12.css"/>
+<script src="Ejercicio12.js"></script>
+</head>
+<body>
+
+<h1>Ejercicio 12</h1>
+<p>Instrucciones de uso: Puede seleccionar los archivos que quiera y posteriormente con los botones "Siguiente" y "Atrás"
+podrá navegar entre la información general o la información específica de cada archivo. 
+</p>
+<p>
+    <label for="subirArchivos">Para cargar archivos: </label>
+    <input id="subirArchivos" type="file" name="Archivos" onchange="gestorArchivos.cabecera();" multiple>
+</p>
+<p>
+    <input type="button" value="Atrás" onclick="gestorArchivos.atras();" />
+    <input type="button" value="Siguiente" onclick="gestorArchivos.siguiente();" />
+</p>
+<div id="info"></div>
+<pre id="areaTexto"></pre>
+</body>
+</html>

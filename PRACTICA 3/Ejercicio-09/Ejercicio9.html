@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio9</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio9" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="Ejercicio9.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "Ejercicio9.js"></script>
+</head>
+<body>
+<h1>Información meteorológica "La ruta extremeña"</h1>
+
+<p>Puntos de la ruta:</p>
+<p>
+    <input type="button" value="Zafra"  onclick="meteo.cargarDatos('Zafra');" /> 
+    <input type="button" value="Mérida"  onclick="meteo.cargarDatos('Mérida');" /> 
+    <input type="button" value="Toledo"  onclick="meteo.cargarDatos('Toledo');" /> 
+    <input type="button" value="Aranjuez"  onclick="meteo.cargarDatos('Aranjuez');" /> 
+    <input type="button" value="Madrid"  onclick="meteo.cargarDatos('Madrid');" /> 
+</p>
+
+<div id="info">
+</div>
+</body>
+</html>

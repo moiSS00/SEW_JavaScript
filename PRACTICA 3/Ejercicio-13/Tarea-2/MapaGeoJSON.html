@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio13</title>
+<meta charset="UTF-8">
+<meta name="author" content="Moisés Sanjurjo Sáncehz (UO270824)" />
+<meta name="desciption" content="Ejercicio13" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="MapaGeoJSON.css"/>
+<script src="MapaGeoJSON.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapaDinamicoGoogle.initMap"></script>
+
+</head>
+<body>
+
+<h1>Ejercicio 13: Tarea 2</h1>
+<p>Instrucciones de uso: Cargue el archivo geoJSON y se generará un mapa dinámico con las rutas contenidas en el geoJSON subido.
+</p>
+<p>
+    <label for="subirArchivos">Para cargar archivos:</label>
+    <input id="subirArchivos" type="file" name="Archivos" onchange="mapaDinamicoGoogle.initMap();" >
+</p>
+<div id="mapa"></div>
+</body>
+</html>
